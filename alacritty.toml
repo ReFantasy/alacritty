@@ -43,16 +43,10 @@ bindings = [
     # 水平创建窗格
     { key = "D", mods = "Command|Shift", chars = "\u0002\"" },
 
-    # 移动窗格
-    { key = "ArrowLeft", mods = "Command|Shift", chars = "\u0002h" },
-    { key = "ArrowRight", mods = "Command|Shift", chars = "\u0002l" },
-    { key = "ArrowUp", mods = "Command|Shift", chars = "\u0002k" },
-    { key = "ArrowDown", mods = "Command|Shift", chars = "\u0002j" },
-
-    { key = "H",        mods = "Command|Shift", chars = "\u0002H"           }, 
-    { key = "J",        mods = "Command|Shift", chars = "\u0002J"           }, 
-    { key = "K",        mods = "Command|Shift", chars = "\u0002K"           }, 
-    { key = "L",        mods = "Command|Shift", chars = "\u0002L"           }, 
+    { key = "ArrowLeft",        mods = "Command|Shift", chars = "\u0002H"           }, 
+    { key = "ArrowDown",        mods = "Command|Shift", chars = "\u0002J"           }, 
+    { key = "ArrowUp",        mods = "Command|Shift", chars = "\u0002K"           }, 
+    { key = "ArrowRight",        mods = "Command|Shift", chars = "\u0002L"           }, 
 
     # 创建新窗口
     { key = "t", mods = "Command|Shift", chars = "\u0002c" },
