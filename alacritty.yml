@@ -1,0 +1,31 @@
+live_config_reload: true
+
+env:
+  WINIT_X11_SCALE_FACTOR : "1.8"
+  TERM : "alacritty"
+
+import:
+ - ~/.config/alacritty/alacritty-theme-yaml/themes/breeze.yaml
+
+window:
+  dimensions : 
+    lines : 35 
+    columns: 90
+  dynamic_padding : true
+  opacity : 0.9
+
+# font:
+#   normal:
+#     family: Consolas
+#     # family: FiraCode Nerd Font
+#
+#   size: 12
+
+
+osc52 : "CopyPaste"
+blur: true
+
+key_bindings:
+  # (Windows/Linux only)
+  - { key: V,        mods: Control,        action: Paste            }
+  - { key: C,        mods: Control,        action: Copy             }
