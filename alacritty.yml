@@ -12,7 +12,7 @@ window:
     lines : 35 
     columns: 90
   dynamic_padding : true
-  opacity : 0.9
+  opacity : 0.95
 
 # font:
 #   normal:
@@ -25,7 +25,7 @@ window:
 osc52 : "CopyPaste"
 blur: true
 
-key_bindings:
+# key_bindings:
   # (Windows/Linux only)
-  - { key: V,        mods: Control,        action: Paste            }
-  - { key: C,        mods: Control,        action: Copy             }
+  # - { key: V,        mods: Control,        action: Paste            }
+  # - { key: C,        mods: Control,        action: Copy             }
